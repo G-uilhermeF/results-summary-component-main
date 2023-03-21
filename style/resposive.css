@@ -1,0 +1,26 @@
+@media (max-width: 910px) {
+  body {
+    display: flex;
+    justify-content: start;
+  }
+  .main-content {
+    min-width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+  }
+  .result-content {
+    min-width: 100%;
+    border-radius: 0 0 20px 20px;
+    padding: 20px;
+  }
+  .summary-content {
+    min-width: 100%;
+
+    border-radius: 0px;
+    padding: 15px;
+  }
+  .attribution {
+    margin: 0px;
+  }
+}

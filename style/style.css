@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body p {
+  font-size: 18px;
+}
+.main-content {
+  border-radius: 20px;
+  display: flex;
+  width: 50%;
+  background-color: white;
+}
+.result-content {
+  width: 50%;
+  background-color: #2e2be8;
+  color: #c6bafc;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px 0;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.result-content h1 {
+  color: #fdfef9;
+}
+.result-content .description-result {
+  font-size: 14px;
+}
+.result-value {
+  width: 150px;
+  background: rgb(76, 34, 203);
+  background: linear-gradient(180deg, rgba(76, 34, 203, 1) 49%, rgba(68, 47, 226, 1) 77%, rgba(46, 43, 232, 1) 98%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 100%;
+  padding: 20px;
+}
+.result-value .result-emphasis {
+  color: #fdfef9;
+  font-size: 60px;
+  font-weight: 700;
+}
+.summary-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 20px 0;
+  border-radius: 0 20px 20px 0;
+  box-shadow: 5px 4px 27px -9px rgba(0, 0, 0, 0.74);
+  -webkit-box-shadow: 5px 4px 27px -9px rgba(0, 0, 0, 0.74);
+  -moz-box-shadow: 5px 4px 27px -9px rgba(0, 0, 0, 0.74);
+}
+.summary-content h3 {
+  color: #383a46;
+}
+.summary-content .analysis-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+.summary-content .itens-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.summary-content .img-and-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 10px;
+  font-weight: 500;
+}
+.summary-content .reaction {
+  background-color: #fff6f5;
+  color: #ff5555;
+}
+.summary-content .memory {
+  background-color: #fffbf2;
+  color: #edb845;
+}
+.summary-content .verbal {
+  background-color: #f2fbfa;
+  color: #87cbb6;
+}
+.summary-content .visual {
+  background-color: #f3f3fd;
+  color: #2430b4;
+}
+.summary-content .number-summary-emphasis {
+  color: #4d4e63;
+  font-weight: 800;
+}
+.summary-content .second-number-summary {
+  color: #a69fa6;
+}
+.summary-content .button-continue {
+  width: 200px;
+  background-color: #303b59;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px;
+  border: transparent;
+  margin: 5px auto 0 auto;
+  cursor: pointer;
+}
+.button-continue:hover {
+  background: rgb(93, 62, 251);
+  background: linear-gradient(180deg, rgba(93, 62, 251, 1) 19%, rgba(81, 57, 245, 1) 41%, rgba(59, 48, 242, 1) 57%);
+}
+.attribution {
+  margin-top: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
