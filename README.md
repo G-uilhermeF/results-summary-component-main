@@ -40,4 +40,4 @@ Aprendendo e tentando aperfeiçoar cada dia mais os conceitos de Flexbox, gradie
 
 ### Desenvolvimento contínuo
 
-Agora é estudar mais e por mais em prática, tudo aquilo adquirido de conhecimento e cada vez mais aperfeiçoar as boas práticas e melhorar cada vez os códigos, assim mantendo o conceito de clean code. Próximo passo agora é parti para logica de programação com JavaScript e logo em seguida React. Foco é se tornar um bom FrontEnd
+Agora é estudar mais e por mais em prática, tudo aquilo adquirido de conhecimento e cada vez mais aperfeiçoar as boas práticas e melhorar cada vez os códigos, assim mantendo o conceito de clean code. Próximo passo agora é parti para logica de programação com JavaScript e logo em seguida React. Foco é se tornar um bom desenvolvedor.
